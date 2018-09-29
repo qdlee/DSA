@@ -1,0 +1,44 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "data structrue and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdlee/dsa.git"
+  },
+  "keywords": [
+    "data",
+    "structrue",
+    "algorithm"
+  ],
+  "author": "qdlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdlee/dsa/issues"
+  },
+  "homepage": "https://github.com/qdlee/dsa#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
